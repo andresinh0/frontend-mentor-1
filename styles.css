@@ -5,20 +5,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana */
+  height: 80vh; /* altura que usa de la ventana */
   font-family: 'Inter', sans-serif;
 }
 
 .container {
   width: 300px; /* Ancho del contenedor */
-  height: 500px; /* Altura del contenedor */
+  height: 400px; /* Altura del contenedor */
 }
 
 .rectangle {
   width: 110%;
-  height: 140%;
+  height: 150%;
   background-color: #1F1F1F;
-  padding-top: 30px !important;
+  padding-top: 30px;
   border-radius: 13px;
 }
 
